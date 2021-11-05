@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #FEAC5E, #C779D0, #4BC0C8);
+    overflow: hidden;
+}
+.wrapper{
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.title{
+    font-size: 70px;
+    margin: 20px auto 30px auto;
+    color: white;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.cell{
+    width: 100px;
+    height: 100px;
+    background: black;
+    border: 1px solid yellow;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px;
+}
+.status{
+    font-size: 10px;
+    color: white;
+    margin: 40px auto 20px auto;
+}
+.restart{
+    padding: 10px;
+    font-size: 45px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
